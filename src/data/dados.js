@@ -2,7 +2,7 @@ export const parametrosPadrao = {
   pessoas: 100,
   drinksPorPessoa: 4,
   margemLucro: 2.8,
-  perdaTecnica: 0.10, // 10%
+  perdaTecnica: 0.1, // 10%
   taxaBartender: 180,
   pessoasPorBartender: 50,
   frete: 80,
@@ -31,17 +31,46 @@ export const cardapioDrinks = [
   {
     id: "caipirinha",
     nome: "Caipirinha",
-    receita: { cachaca: 50, limao: 1, acucar: 20, gelo: 0.15 }
+    receita: { cachaca: 50, limao: 1, acucar: 20, gelo: 0.15 },
   },
   {
     id: "caipiroska",
     nome: "Caipiroska",
-    receita: { vodka: 50, limao: 1, acucar: 20, gelo: 0.15 }
+    receita: { vodka: 50, limao: 1, acucar: 20, gelo: 0.15 },
   },
   {
     id: "sensacao",
     nome: "Sensação",
-    receita: { vodka: 50, morango: 4, leiteCondensado: 30, gelo: 0.2 }
-  }
-  // Adicionar os outros depois 
+    receita: {
+      vodka: 50,
+      morango: 4,
+      leiteCondensado: 30,
+      acucar: 10,
+      gelo: 0.2,
+    },
+  },
+  {
+    id: "moscowMule",
+    nome: "Moscow Mule",
+    receita: {
+      vodka: 50,
+      limao: 0.5,
+      acucar: 10,
+      espumaGengibre: 40,
+      gelo: 0.2,
+    },
+  },
+  {
+    id: "semAlcool",
+    nome: "Sem Álcool",
+    receita: {
+      limao: 0.5,
+      acucar: 15,
+      aguaComGas: 120,
+      polpaFruta: 80,
+      gelo: 0.2,
+    },
+  },
+
+  // Adicionar os outros depois
 ];
